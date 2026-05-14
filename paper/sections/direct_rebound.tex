@@ -1,19 +1,52 @@
 \section{Direct Rebound Effects in AI Systems}
 \label{sec:direct}
 
-% (~2000 characters incl. spaces)
-% What to write here:
-% - AI models become more efficient per query
-% - BUT: number of queries grows massively
-% - Data centers: Microsoft, Google, Amazon building more despite efficiency gains
-% - Training costs: GPT-3 example (energy equivalent of flights)
-% - Cooling water consumption
-% - Net result: absolute energy use increases
+The most immediate form of rebound effect in the context of AI 
+concerns the infrastructure required to develop and operate AI 
+systems. While individual AI models have become increasingly 
+efficient in terms of energy consumption per query, this progress 
+has not translated into a reduction in absolute energy use. 
+Instead, lower costs per operation have stimulated a dramatic 
+increase in demand, a pattern consistent with the Jevons Paradox 
+described in the preceding section.
 
-As individual AI models become more energy-efficient per inference,
-the total energy consumption of AI infrastructure continues to grow.
-This constitutes a direct rebound effect: lower costs per query
-stimulate demand, leading to a net increase in resource consumption
-\cite{patterson2021}.
+A concrete illustration of this dynamic is the development of 
+graphics processing units (GPUs), the primary hardware used for 
+training and deploying AI models. Despite continuous improvements 
+in hardware efficiency, NVIDIA shipped 3.7 million data center 
+GPUs in 2024 -- more than one million more units than in the 
+previous year -- driven by surging demand from AI applications 
+\cite{luccioni2025}. The data centers housing this hardware have 
+similarly improved their Power Usage Effectiveness (PUE), yet 
+their absolute energy consumption has continued to rise 
+\cite{luccioni2025}. This illustrates the core mechanism of the 
+direct rebound effect: efficiency gains at the component level 
+are offset by growth in the overall scale of deployment.
 
-% --> Continue writing here
+The scale of this growth is substantial. According to projections 
+by the International Energy Agency, global data center electricity 
+consumption is expected to reach between 650 and 1,050 TWh by 
+2026, driven primarily by the rapid expansion of AI infrastructure 
+\cite{iea2025ai}. To put this figure in context, the lower bound 
+alone would exceed the total annual electricity consumption of 
+several mid-sized European countries.
+
+The case of Google DeepMind illustrates the paradox at the 
+facility level. The deployment of an AI system to optimize 
+cooling in Google's data centers reduced cooling energy 
+consumption by up to 40 percent \cite{mhlanga2025}. While this 
+represents a significant efficiency gain, the broader trend 
+points in the opposite direction: the same technology companies 
+achieving these efficiency improvements are simultaneously 
+expanding their data center capacity at an unprecedented rate. 
+Efficiency, in this context, appears to function as an enabler 
+of growth rather than a substitute for it.
+
+A further challenge in assessing the direct environmental impact 
+of AI is the lack of standardized reporting. Technology companies 
+commonly disclose only a narrow range of environmental metrics, 
+which impedes comprehensive lifecycle assessments and leaves the 
+full extent of AI's resource consumption largely opaque 
+\cite{luccioni2025}. This absence of transparent data not only 
+complicates academic analysis but also undermines the capacity 
+of policymakers to design effective regulatory responses.
