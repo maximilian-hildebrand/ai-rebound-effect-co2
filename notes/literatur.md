@@ -16,7 +16,7 @@
 - Link: https://www.iea.org/reports/energy-and-ai
 - Verwendet in: Direct Rebound
 
-### ma2025
+### chen2025
 - Link: https://www.mdpi.com/1996-1073/18/24/6466
 - Verwendet in : Indirect Rebound
 - Notiz: Bezieht sich auf China
