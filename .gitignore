@@ -219,6 +219,13 @@ _minted*
 # scrwfile
 *.wrt
 
+# Local metadata and research downloads
+.DS_Store
+.claude/
+*.pdf
+!paper/main.pdf
+notes/pdf_source/
+
 # spelling
 *.spell.bad
 *.spell.txt
@@ -327,9 +334,6 @@ TSWLatexianTemp*
 
 # .vscode
 .vscode/
-
-# pdf source files
-notes/pdf_source/
 
 # REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
